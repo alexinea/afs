@@ -24,9 +24,8 @@ coverage
 build/Release
 
 # Dependency directory
-node_modules
-
-app/bower_components
+node_modules/
+afs/bower_components
 
 # Optional npm cache directory
 .npm
@@ -35,5 +34,30 @@ app/bower_components
 .node_repl_history
 
 # Intelli IDEA
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
 
-.idea
+# Project Specific
+afs/content/css/**/*.css
+www/**
+
+# SASS
+.sass-cache/**
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac OSX
+.DS_Store
+.svn
+._*
+.Spotlight-V100
+.Trashes
+
+# ESLint
+.eslintcache
