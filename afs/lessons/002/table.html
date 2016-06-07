@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app ng-strict-di>
+<head>
+    <meta charset="utf-8">
+    <title>Lessons-02 Table</title>
+    <link rel="stylesheet" href="/content/css/vendor.css"/>
+</head>
+<body>
+<table class="table">
+    <thead>
+        <td>first</td>
+        <td>second</td>
+        <td>third</td>
+    </thead>
+    <tbody>
+        <tr ng-repeat="x in ['xue','jie','moe']">
+            <td>{{$index}}</td>
+            <td>{{x}}</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+</table>
+<script src="/bower_components/angular/angular.js"></script>
+</body>
+</html>
